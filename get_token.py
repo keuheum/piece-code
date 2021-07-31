@@ -1,3 +1,4 @@
+#You can use the ID of your Discord ID to get the front part of the token.
 import base64, datetime
 
 id = "your discord id"

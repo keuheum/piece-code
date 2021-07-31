@@ -1,3 +1,4 @@
+#Encryption and decryption using base64
 import base64
 sitename = '나는 문어 꿈을 꾸는 문어~'
 sitename_bytes = sitename.encode('utf-8')
